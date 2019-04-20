@@ -1,0 +1,3 @@
+./createCluster.sh run000.sh    # Create run000.sub file for run000.sh script
+condor_submit run000.sub        # Submit job (cluster)
+condor_q                        # Check status
