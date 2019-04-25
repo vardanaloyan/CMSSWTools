@@ -8,4 +8,5 @@
 ## 3. Submiting the job
 ### condor_submit run000.sub 
 ## 4. Checking the status
-### condor_q
+### condor_q (one time check)
+### watch -n 1 condor_q (Continuous Checks)
